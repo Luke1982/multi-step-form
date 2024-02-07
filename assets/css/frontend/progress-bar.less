@@ -177,6 +177,7 @@
     &.fw-large-container {
         .fw-progress-bar-container {
             margin-bottom: 80px;
+            width: 125%;
             padding:0px;
         }
         .fw-progress-bar {
@@ -186,20 +187,18 @@
             padding: 0;
             position: absolute;
             width: 100%;
-            display: flex;
             .fw-progress-step {
                 display: inline-block;
                 margin: 50px 0 0;
                 padding: 10px 20px 10px 0px;
                 text-align: left;
-                flex-grow: 1;
-                flex-basis: 0;
+                width: 16%;
                 &:before {
-                    height: 40px;
-                    line-height: 36px;
-                    top: -40px;
-                    width: 40px;
-                    font-size: 24px;
+                    height: 65px;
+                    line-height: 56px;
+                    top: -75px;
+                    width: 65px;
+                    font-size: 44px;
                     position: absolute;
                     z-index: 1;
                 }
@@ -212,12 +211,12 @@
                     width: 100%;
                     left: 6%;
                     position: absolute;
-                    top: -29px;
+                    top: -52px;
                     z-index: 0;
                 }
                 &:last-child {
                     &:before {
-                        font-size: 22px;
+                        font-size: 35px;
                         padding-top: 5px;
                     }
                     &:after {
@@ -249,15 +248,15 @@
                 &.fw-visited {
                     background: none;
                     &:before {
-                        font-size:27px;
-                        padding:3px 0px 0px 0px;
+                        font-size:40px;
+                        padding:3px 7px 0px 0px;
                     }
                     &:after {
                         background-size: 35px 35px;
                         content: "";
                         height: 15px;
                         position: absolute;
-                        top: -29px;
+                        top: -50px;
                         width: 100%;
                         z-index: 0;
                     }
@@ -268,7 +267,6 @@
                     overflow: hidden;
                     text-overflow: ellipsis;
                     display: inline-block;
-                    font-size: 14px;
                 }
                 .fw-txt-ellipsis[data-title] {
                     &:hover {
