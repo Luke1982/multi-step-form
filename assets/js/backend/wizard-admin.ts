@@ -1085,7 +1085,7 @@ declare var wp: any;
      */
 	function addStep(step) {
 		const stepCount = $('.fw-step').length;
-		if (stepCount < 5 || msfp) {
+		if (stepCount < 50 || msfp) {
 			if (stepCount < 10) {
 				var $step = $(renderStep(step, stepCount));
 				$step.appendTo($(container).find('.meta-box-sortables'));
